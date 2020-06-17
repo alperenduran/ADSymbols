@@ -8,14 +8,7 @@
 import Foundation
 
 enum ADSymbolName: String, CaseIterable {
-    case squareAndArrowUp = "square.and.arrow.up"
-    case squareAndArrowUpFill = "square.and.arrow.up.fill"
-    case squareAndArrowDown = "square.and.arrow.down"
-    case squareAndArrowDownFill = "square.and.arrow.down.fill"
-    case squareAndArrowUpOnSquare = "square.and.arrow.up.square"
-    case squareAndArrowUpOnSquareFill = "square.and.arrow.up.square.fill"
-    case squareAndArrowDownOnSquare = "square.and.arrow.down.square"
-    case squareAndArrowDownOnSquareFill = "square.and.arrow.down.square.fill"
+    // MARK: - Objects&Tools
     case pencil = "pencil"
     case pencilInCircle = "pencil.circle"
     case pencilInFilledCircle = "pencil.circle.fill"
