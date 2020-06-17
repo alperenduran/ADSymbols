@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ADSymbol: View {
+public struct ADSymbol: View {
     let symbol: ADSymbolName
     @available(iOS 13.0, *)
     var body: some View {

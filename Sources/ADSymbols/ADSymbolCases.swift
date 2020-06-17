@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum ADSymbolName: String, CaseIterable {
+public enum ADSymbolName: String, CaseIterable {
     // MARK: - Objects&Tools
     case pencil = "pencil"
     case pencilInCircle = "pencil.circle"
