@@ -13,6 +13,10 @@ public struct ADSymbol: View {
     public var body: some View {
         Image(systemName: symbol.rawValue)
     }
+    
+    public init(symbol: ADSymbolName) {
+        self.symbol = symbol
+    }
 }
 
 @available(iOS 13.0, *)
